@@ -1,0 +1,27 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "simple todo app",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "nodemon --experimental-modules index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albertthewinner2000/todo.git"
+  },
+  "keywords": [
+    "todo",
+    "nodejs"
+  ],
+  "author": "Albert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/albertthewinner2000/todo/issues"
+  },
+  "homepage": "https://github.com/albertthewinner2000/todo#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
