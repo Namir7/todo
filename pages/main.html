@@ -13,36 +13,39 @@
 
     <header>
         <div class="container">
-            
-            <p class="header-title">
-                TODO
-            </p>
-            
+            <a href="http://localhost:3000/pages/main.html">
+                <p class="header-title">
+                    TODO
+                </p>
+            </a>
+
         </div>
 
     </header>
 
     <main>
+        <h1 class="hidden">TODO app</h1>
 
         <div class="container">
 
-            <h1 class="hidden">
-                TODO app
-            </h1>
-    
-            <ul>
-                <li>item 1 </li>
-                <li>item 2 </li>
-                <li>item 3 </li>
-                <li>item 4 </li>
-                <li>item 5 </li>
-            </ul>
+            <section class="tasks">
+                <div class="controllers">
+                    <button id="show-tasks" class="controller">show tasks</button>
+                    <button id="hdie-tasks" class="controller">hide tasks</button>
+                </div>
+
+
+                <ul id="tasksList" class="tasks-list"></ul>
+                <button id="add-task">add task</button>
+            </section>
+
 
         </div>
 
 
     </main>
 
+    <script type="module" src="./../scripts/main/main.js"></script>
 </body>
 
 </html>
